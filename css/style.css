@@ -4,22 +4,23 @@
 }
 
 .row {
-  background-color: yellow;
-  height: 100%;
+  background-color: white;
+  /* height: 100%; */
 }
 
 .container {
   background-color: grey;
-  height: 70px;
+  /* height: 70px; */
 }
 
-[class^="col-"] {
-  border: 1px solid black;
+[class*="col-"] {
+  /* border: 1px solid black; */
   height: 70px;
+  padding: 0;
 }
 
 img.logo {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   padding: 20px 0;
 }
@@ -29,6 +30,11 @@ img.logo {
 }
 .bl-nav-right.bl-padding {
   padding-left: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 select {
@@ -47,8 +53,16 @@ select {
 [class^="bl-nav-"] li {
   display: inline-block;
   line-height: 70px;
+  padding-left: 20px;
+
 }
 
+button {
+  border-radius: 5px;
+  border: 1px solid rgb(0,106,255);
+  background-color: inherit;
+  color: rgb(33,125,255);
+}
 
 .container.box {
   height:200px;
