@@ -112,3 +112,48 @@ header .container {
   border-radius: 10px;
   height: 351.85px;
 }
+
+.bl-jumbotron #account p {
+  font-size: 32px;
+  font-weight:500;
+  padding: 20px 20px;
+}
+
+.bl-jumbotron #account p span {
+  color: rgb(0, 106, 255);
+}
+
+#account input[type] {
+   width: calc(100% - 20px);
+   padding: 5px 10px;
+   margin: 5px 10px;
+   border-radius: 5px;
+   border: 1px solid lightgrey;
+ }
+
+#account form>div:nth-child(3) input[type="button"] {
+   background-color: rgb(87, 154, 255);
+   color: white;
+   font-weight: bold;
+   border: 1px solid rgb(87, 154, 255);
+ }
+
+#account form>div:nth-child(4) input[type="button"] {
+   background-color: inherit;
+   color: rgb(98, 98, 98);
+   font-weight: bold;
+   border: 1px solid white;
+   box-shadow:  2px  2px 1px rgba(180, 180, 180, 0.3);
+ }
+
+.google {
+  position: relative;
+}
+
+ .google img {
+   width: 20px;
+   position: absolute;
+   left: 25px;
+   top: 50%;
+   transform: translate(0, -50%);
+ }
