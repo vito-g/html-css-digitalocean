@@ -24,7 +24,7 @@ img.logo {
   padding: 20px 0;
 }
 
-.logotype.bl-padding, .bl-nav-right.bl-padding {
+.logotype.bl-padding, .bl-nav-left.bl-padding {
   padding-left: 0;
 }
 .bl-nav-right.bl-padding {
@@ -38,7 +38,7 @@ select {
 
 }
 
-li:nth-of-type(even) select{
+.bl-nav-left li:nth-of-type(even) select, .bl-nav-right li:nth-of-type(odd) select{
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
