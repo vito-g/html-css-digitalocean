@@ -14,14 +14,14 @@
 }
 
 .bl-nav .row [class*="col-"] {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 70px;
   padding: 0;
 }
 
 [class*="col-"] {
-  border: 1px solid red;
-  height: 100%;
+  /* border: 1px solid red; */
+  /* height: 100%; */
   padding: 0;
 }
 
@@ -70,10 +70,10 @@ button {
   color: rgb(33,125,255);
 }
 
-.container.box {
+/* .container.box {
   height:200px;
   border: 1px solid red;
-}
+} */
 
 header {
   /* background-color: red; */
@@ -85,7 +85,7 @@ header {
 }
 
 header .container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100%;
 }
 
@@ -157,3 +157,31 @@ header .container {
    top: 50%;
    transform: translate(0, -50%);
  }
+
+main .row {
+  /* background-color: rgb(243, 245, 249); */
+  background-color: #f3f5f9;
+  /* background-color: red; */
+  /* border: 1px solid blue; */
+  /* height: 300px; */
+}
+
+main .row [class*="col-"] {
+  /* border: 1px solid black; */
+}
+
+main .row.sponsor h4 {
+  color: rgb(111, 123, 151);
+}
+
+main .row.sponsor h6 {
+  color: rgb(0, 106, 255);
+}
+
+
+
+
+main [class*="col-"] img {
+  width: 195px;
+  /* border: 1px solid green; */
+}
