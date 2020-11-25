@@ -1,6 +1,6 @@
 .container-fluid {
   background-color: red;
-  height: 70px;
+  /* height: 70px; */
 }
 
 .row {
@@ -16,4 +16,19 @@
 [class^="col-"] {
   border: 1px solid black;
   height: 100%;
+}
+
+img.logo {
+  border: 1px solid red;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.logotype.bl-padding {
+  padding-left: 0;
+}
+
+.container.box {
+  height:200px;
+  border: 1px solid red;
 }
