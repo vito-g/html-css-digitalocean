@@ -179,6 +179,10 @@ main .row [class*="col-"] {
   /* border: 1px solid black; */
 }
 
+main .row.sponsor {
+  margin: 20px 0;
+}
+
 main .row.sponsor h4 {
   color: rgb(111, 123, 151);
 }
