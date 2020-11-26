@@ -22,7 +22,8 @@
 [class*="col-"] {
   /* border: 1px solid red; */
   /* height: 100%; */
-  padding: 0;
+  /* TOLTO PER UN ATTIMO */
+  /* padding: 0; */
 }
 
 img.logo {
@@ -195,6 +196,7 @@ main .row.sponsor h6 {
 
 
 main [class*="col-"] img {
-  width: 195px;
+  /* width: 195px; */
+  width: 100%;
   /* border: 1px solid green; */
 }
