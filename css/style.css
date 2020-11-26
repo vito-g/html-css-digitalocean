@@ -150,13 +150,22 @@ header .container {
   position: relative;
 }
 
- .google img {
-   width: 20px;
-   position: absolute;
-   left: 25px;
-   top: 50%;
-   transform: translate(0, -50%);
- }
+.google img {
+ width: 20px;
+ position: absolute;
+ left: 25px;
+ top: 50%;
+ transform: translate(0, -50%);
+}
+
+.google ~ span {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.google ~ span a.decoration {
+  text-decoration: underline;
+}
 
 main .row {
   /* background-color: rgb(243, 245, 249); */
