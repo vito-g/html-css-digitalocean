@@ -1,9 +1,9 @@
 .container-fluid {
-  background-color: red;
+  /* background-color: red; */
   /* height: 70px; */
 }
 
-.row.bl-nav {
+.bl-nav .row {
   background-color: white;
   /* height: 100%; */
 }
@@ -158,7 +158,7 @@ header .container {
  transform: translate(0, -50%);
 }
 
-.google ~ span {
+#account form ~ span {
   font-size: 10px;
   font-weight: bold;
 }
