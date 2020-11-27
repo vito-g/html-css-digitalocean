@@ -164,7 +164,7 @@ header .container {
 }
 
 
-#account form ~ span a.decoration {
+#account form ~ div a.decoration {
   text-decoration: underline;
 }
 
