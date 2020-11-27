@@ -226,6 +226,7 @@ main [class*="col-"] img {
 
 .row.process [class*="col-"] .ul {
   border-left: 2px solid rgb(204,204,204);
+  margin-bottom: 25px;
 }
 
 .row.process .ul ul>li {
@@ -245,6 +246,7 @@ main [class*="col-"] img {
 .row.process div:nth-child(2) .row.sub {
   /* background-color: grey; */
   height: 100%;
+  color: rgb(117,128,154);
 }
 
 .row.process div:nth-child(2) .row.sub div img {
@@ -252,4 +254,16 @@ main [class*="col-"] img {
   width: auto;
   /* display: inline-block; */
   /* border: 1px solid green; */
+}
+
+.row.process {
+  margin-bottom: 20px;
+}
+
+.row.process div:nth-child(2) .row.sub .row:first-child {
+  margin-bottom: 15px;
+}
+
+main.container-fluid .row:last-child h2, h5 {
+  color: rgb(3,28,78);
 }
