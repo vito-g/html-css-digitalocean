@@ -20,7 +20,7 @@
 }
 
 [class*="col-"] {
-  /* border: 1px solid red; */
+  /* border: 1px solid blue; */
   /* height: 100%; */
   /* TOLTO PER UN ATTIMO */
   /* padding: 0; */
@@ -168,12 +168,29 @@ header .container {
   text-decoration: underline;
 }
 
-main .row {
+main .row:first-child {
   /* background-color: rgb(243, 245, 249); */
   background-color: #f3f5f9;
   /* background-color: red; */
   /* border: 1px solid blue; */
   /* height: 300px; */
+}
+
+main .row:nth-child(2) {
+  /* background-color: red; */
+  /* height: 300px; */
+}
+
+main .row:nth-child(2) .container {
+  background-color: white;
+  height: 100%;
+  /* border: 1px solid green; */
+}
+
+main .row:nth-child(2) .container .row {
+  background-color: white;
+  /* height: 100%; */
+  /* border: 1px solid red; */
 }
 
 main .row [class*="col-"] {
@@ -192,11 +209,47 @@ main .row.sponsor h6 {
   color: rgb(0, 106, 255);
 }
 
-
-
+main .row:nth-child(2) h4 {
+  color: rgb(119, 130, 156);
+}
 
 main [class*="col-"] img {
   /* width: 195px; */
   width: 100%;
+  /* border: 1px solid green; */
+}
+
+.row.process {
+  /* background: grey; */
+  margin-top: 40px;
+}
+
+.row.process [class*="col-"] .ul {
+  border-left: 2px solid rgb(204,204,204);
+}
+
+.row.process .ul ul>li {
+  list-style-type: none;
+  line-height: 3;
+  padding-left: 10px;
+  color: rgb(117,128,154);
+  font-weight: 500;
+}
+
+.row.process [class*="col-"] {
+  /* border: 1px solid black; */
+  height: 100%;
+  /* background-color: yellow; */
+}
+
+.row.process div:nth-child(2) .row.sub {
+  /* background-color: grey; */
+  height: 100%;
+}
+
+.row.process div:nth-child(2) .row.sub div img {
+  height: 37px;
+  width: auto;
+  /* display: inline-block; */
   /* border: 1px solid green; */
 }
