@@ -276,7 +276,7 @@ main.container-fluid .row:nth-child(3) {
 main.container-fluid .row:nth-child(3) .container {
   /* background-color: green; */
   height: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 main.container-fluid .row:nth-child(3) h2, h5 {
@@ -291,12 +291,59 @@ main .row:nth-child(3) h4 {
 main .row:nth-child(3) .row.carousel [class*="col-"] {
   /* border: 1px solid white; */
 }
-/* Centratura ma con alteza fissa presa dall'immagine. La soluzione non è la migliore perchè troppo dipendente dalle dim di una immagine che può cambiare */
-.row.carousel [class*="fa-chevron"] {
-  /* background-color: red; */
+/* Centratura ma con alteza fissa presa dall'immagine. La soluzione non è la migliore perchè troppo dipendente dalle dim di una immagine che può cambiare mentre il line-height resta fisso */
+/* .row.carousel [class*="fa-chevron"] {
   line-height: 378.1px;
   font-size: 2em;
 }
+.row.carousel div.fa [class*="fa-chevron-"]:hover {
+  color: rgb(111, 123, 151);
+  cursor: pointer;
+} */
+
+.row.carousel>[class*="col-"]:first-child, .row.carousel>[class*="col-"]:last-child {
+  /* border: 1px solid red; */
+  /* position: relative; */
+}
+
+.row.img {
+  position: relative;
+}
+
+/* .row.carousel [class*="fa-chevron-"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+} */
+
+.row.carousel .fa-chevron-left {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.row.carousel .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  left: 105%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.row.carousel [class*="fa-chevron-"]:hover {
+  color: rgb(111, 123, 151);
+  cursor: pointer;
+}
+
+/* .row.carousel div.fa {
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+} */
 
 /* main .row:nth-child(3) .row.carousel>[class*="col-"]:first-child {
   border: 1px solid blue;
@@ -314,20 +361,22 @@ main .row:nth-child(3) .row.carousel [class*="col-"] {
   font-size: 2em;
 } */
 
-.row.carousel div.fa [class*="fa-chevron-"]:hover {
-  color: rgb(111, 123, 151);
-  color: rgb
-  cursor: pointer;
-}
 
+/* Forse sarebbe meglio un container personale su cui inserire margini */
 .row.carousel {
   margin-top: 50px;
+  /* border: 1px solid green; */
 }
 
-[class*="fa-circle-tin"] {
+/* [class*="fa-circle-tin"] {
   color: rgb(0, 106, 255);
   cursor: pointer;
-}
+} */
+
+/* .row.circle {
+  height: 50px;
+  background-color: red;
+} */
 
 .circle {
   cursor: pointer;
@@ -344,4 +393,5 @@ main .row:nth-child(3) .row.carousel [class*="col-"] {
 
 .bl-container {
   padding: 40px 0;
+  /* background-color: yellow; */
 }
