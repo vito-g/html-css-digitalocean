@@ -169,8 +169,8 @@ header .container {
 }
 
 main .row:first-child {
-  /* background-color: rgb(243, 245, 249); */
-  background-color: inherit;
+  background-color: rgb(243, 245, 249);
+  /* background-color: inherit; */
   /* background-color: #f3f5f9; */
   /* background-color: red; */
   /* border: 1px solid blue; */
@@ -246,8 +246,13 @@ main [class*="col-"] img {
 
 .row.process div:nth-child(2) .row.sub {
   /* background-color: grey; */
-  height: 100%;
+  /* Rimosso non dovrebbe darmi problemi: */
+  /* height: 100%; */
   color: rgb(117,128,154);
+}
+
+p {
+  /* color: rgb(117,128,154); */
 }
 
 .row.process div:nth-child(2) .row.sub div img {
@@ -402,8 +407,12 @@ main .row:nth-child(3) .row.carousel [class*="col-"] {
   /* background-color: yellow; */
 }
 
-main .row:nth-child(4) {
-  /* background-color: white; */
+main .row:nth-child(4) .row.text-center {
+  background-color: inherit;
+}
+
+main .row:nth-child(4) .row.text-center h2, h5 {
+  color: rgb(3, 28, 78);
 }
 
 main .row:nth-child(4) .row [class*="col-"] {
@@ -418,10 +427,22 @@ main .row:nth-child(4)  [class*="col-"] img {
   margin-top: 25px;
 }
 
+/* IL colore di p è anche su un altro p della pagina */
+main .row:nth-child(4) p {
+  color: rgb(117,128,154);
+  /* color: red; */
+}
+
 main .row:nth-child(5) {
   height: 500px;
     background: linear-gradient(180deg, rgb(0, 71, 197), rgb(0, 30, 154));
 }
+
+.bl-pad-left {
+  padding-left: 0;
+  /* border: 1px solid red; */
+}
+
 
 
 
@@ -446,6 +467,10 @@ main .row:nth-child(5) {
 
   .circle {
     margin-top: 90px;
+  }
+
+  .bl-pad-left {
+    padding: 0 15px;
   }
 
 }
