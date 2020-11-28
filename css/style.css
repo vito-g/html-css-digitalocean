@@ -169,7 +169,8 @@ header .container {
 }
 
 main .row:first-child {
-  background-color: rgb(243, 245, 249);
+  /* background-color: rgb(243, 245, 249); */
+  background-color: inherit;
   /* background-color: #f3f5f9; */
   /* background-color: red; */
   /* border: 1px solid blue; */
@@ -270,6 +271,7 @@ main.container-fluid .row:nth-child(2) h2, h5 {
 
 main.container-fluid .row:nth-child(3) {
   background-color: rgb(243, 245, 249);
+  /* background-color: red; */
   height: 100%;
 }
 
@@ -391,10 +393,43 @@ main .row:nth-child(3) .row.carousel [class*="col-"] {
   background-color: rgb(0, 106, 255);
 }
 
+/* a .circle:visited {
+  background-color: red;
+} */
+
 .bl-container {
   padding: 40px 0;
   /* background-color: yellow; */
 }
+
+main .row:nth-child(4) {
+  /* background-color: white; */
+}
+
+main .row:nth-child(4) .row [class*="col-"] {
+  border: 1px solid blue;
+  /* height: 200px; */
+}
+
+
+main .row:nth-child(4)  [class*="col-"] img {
+  height: 37px;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----MEDIA QUERY----- */
 
 /* Media Query XS*/
 @media screen and (max-width:768px) {
