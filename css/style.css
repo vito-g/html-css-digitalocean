@@ -407,7 +407,7 @@ main .row:nth-child(4) {
 }
 
 main .row:nth-child(4) .row [class*="col-"] {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* height: 200px; */
 }
 
@@ -415,9 +415,13 @@ main .row:nth-child(4) .row [class*="col-"] {
 main .row:nth-child(4)  [class*="col-"] img {
   height: 37px;
   width: auto;
+  margin-top: 25px;
 }
 
-
+main .row:nth-child(5) {
+  height: 500px;
+    background: linear-gradient(180deg, rgb(0, 71, 197), rgb(0, 30, 154));
+}
 
 
 
