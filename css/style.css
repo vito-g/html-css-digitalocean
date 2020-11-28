@@ -404,6 +404,11 @@ main .row:nth-child(3) .row.carousel [class*="col-"] {
     display: none;
     /* color: yellow; */
   }
+
+  .circle {
+    margin-top: 90px;
+  }
+
 }
 /* /Media Query XS*/
 
@@ -413,6 +418,10 @@ main .row:nth-child(3) .row.carousel [class*="col-"] {
   .row.carousel [class*="fa-chevron-"] {
     font-size: 1.5em;
     /* color: yellow; */
+  }
+
+  .circle {
+    margin-top: 90px;
   }
 }
 /* /Media Query SM*/
