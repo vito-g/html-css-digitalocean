@@ -30,6 +30,7 @@ img.logo {
   /* border: 1px solid red; */
   width: 100%;
   padding: 20px 0;
+  cursor: pointer;
 }
 
 .logotype.bl-padding, .bl-nav-left.bl-padding {
@@ -47,7 +48,7 @@ ul {
 select {
   border: 0;
   background-color: inherit;
-  /* cursor: pointer; */
+  cursor: pointer;
 
 }
 
@@ -489,8 +490,9 @@ main .row:nth-child(5) .row:nth-child(2) .tab-list ul li {
 }
 
 main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:first-of-type {
-  width: 100px;
+  /* width: 100px; */
   /* Forse meglio in percentuale per quando cambia device */
+  width: 16%;
 }
 
 
@@ -499,10 +501,11 @@ main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:nth-child(2) {
   color: rgb(171, 188, 229);
 }
 
-main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:last-child {
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:last-child  {
   float: right;
   color: rgb(0, 200, 207);
   padding-right: 20px;
+  cursor: pointer;
 }
 
 main .row:nth-child(5) .row:nth-child(2) .tab-list ul  {
@@ -519,6 +522,7 @@ main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
   padding-bottom: 60px;
   margin-bottom: 30px;
   /* border: 1px solid red; */
+  border-radius: 5px;
 }
 
 main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox .row {
@@ -538,8 +542,6 @@ main.container-fluid .row:nth-child(6) h2 {
 main.container-fluid .row:nth-child(6) h5 a {
   color: rgb(0, 106, 255);
 }
-
-
 
 main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox img {
   /* border: 1px solid red; */
@@ -566,6 +568,72 @@ main .row:nth-child(7) .row input[type="button"] {
    margin: 5px 10px;
    border-radius: 5px;
  }
+
+footer {
+  background-color: rgb(3,28,78);
+  color: rgb(122, 133, 157);
+}
+
+footer .logo-sign {
+  margin-bottom: 5px;
+}
+
+footer span#social-icon i {
+  padding: 5px 5px 0 0;
+}
+
+.dif-color {
+  color: rgb(90, 104, 135);
+}
+
+footer ul {
+  margin-bottom: 20px;
+}
+
+footer li {
+  list-style: none;
+  line-height: 1.9;
+  color: rgb(166, 173, 189);
+}
+
+footer li:first-of-type {
+  color: white;
+  font-weight: bold;
+}
+
+.shark {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+.shark-square {
+  background-color: rgb(0, 106, 255);
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.shark img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.circle-num {
+  position: absolute;
+  top:-10.5%;
+  right: -10.5%;
+  width: 42%;
+  height: 42%;
+  border: 2.5px solid white;
+  border-radius: 50%;
+  background-color: red;
+  line-height: 100%;
+  color: white;
+}
 
 /* -----MEDIA QUERY----- */
 
@@ -603,6 +671,12 @@ main .row:nth-child(7) .row input[type="button"] {
     /* border: 1px solid red; */
   }
 
+  /* .shark {
+    position: fixed;
+    left: 35px;
+    bottom: 90px;
+  } */
+
 
 }
 /* /Media Query XS*/
@@ -631,5 +705,12 @@ main .row:nth-child(7) .row input[type="button"] {
     margin-bottom: 7.5px;
     /* border: 1px solid red; */
   }
+
+  .shark {
+    position: fixed;
+    left: 25px;
+    bottom: 120px;
+  }
+
 }
 /* /Media Query SM*/
