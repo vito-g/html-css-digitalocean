@@ -405,6 +405,7 @@ main .row:nth-child(3) .row.carousel [class*="col-"] {
 .bl-container {
   padding: 40px 0;
   /* background-color: yellow; */
+  /* border: 1px solid black; */
 }
 
 main .row:nth-child(4) .row.text-center {
@@ -434,19 +435,80 @@ main .row:nth-child(4) p {
 }
 
 main .row:nth-child(5) {
-  height: 500px;
-    background: linear-gradient(180deg, rgb(0, 71, 197), rgb(0, 30, 154));
+  /* height: 500px; */
+  background: linear-gradient(180deg, rgb(0, 71, 197), rgb(0, 30, 154));
 }
 
+/* Forse sarebbe meglio dare un padding-left zero alla prima colonna ed un padding-right zero alla terza e ultima colonna --->(A) */
 .bl-pad-left {
   padding-left: 0;
   /* border: 1px solid red; */
 }
+/* --->(A) Così facendo dovrò aggiungere la regola che segue */
+/* .bl-pad-right {
+  padding-right: 0;
+} */
+
+main .row:nth-child(5) .row {
+  background-color: inherit;
+  color: white;
+}
+
+/* Ho aggiunto questa row per evitare di avere dei margini di 15 px su bl-container. Sarebbe da fare anche sopra con cautela */
+/* main .row:nth-child(5) .container .row  {
+  border: 1px solid white;
+  background-color: inherit;
+} */
+
+/* INvece di dare il colore solo a questo bl-container potrei darlo atutti i bl-container della pagina laddove esistenti */
+/* main .row:nth-child(5) .container .row .bl-container {
+  background-color: red;
+} */
 
 
 
+/* main .row:nth-child(5) .row:nth-child(2)>[class*="col-"]  {
+  border-bottom: 1px solid red;
+} */
 
 
+/* Costruire la tab utilizzando le liste: */
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul li {
+  /* color: red; */
+  display: inline-block;
+  line-height: 2.5;
+  /* padding-right: 40px; */
+  padding-left: 15px;
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:first-of-type {
+  width: 100px;
+}
+
+
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:nth-child(2) {
+  color: rgb(171, 188, 229);
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:last-child {
+  float: right;
+  color: rgb(0, 200, 207);
+  padding-right: 20px;
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul  {
+ border-bottom: 1px solid white;
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul:last-of-type {
+  border: none;
+}
+
+main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
+  background-color: blue;
+  height:400px;
+}
 
 
 
@@ -469,13 +531,19 @@ main .row:nth-child(5) {
     margin-top: 90px;
   }
 
+
   .bl-pad-left {
     padding: 0 15px;
+  }
+
+  main .row:nth-child(5) .row:nth-child(2) .tab-list ul li {
+    font-size: 0.5em;
   }
 
 }
 /* /Media Query XS*/
 
+/* ATTENZIONE!!!!! Forse devi mettere questa sopra tutte le media query */
 /* Media Query SM*/
 @media screen and (max-width:992px) {
 
