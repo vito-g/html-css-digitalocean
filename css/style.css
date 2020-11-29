@@ -473,6 +473,11 @@ main .row:nth-child(5) .row {
 
 
 /* Costruire la tab utilizzando le liste: */
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list {
+  padding-bottom: 20px;
+}
+
 main .row:nth-child(5) .row:nth-child(2) .tab-list ul li {
   /* color: red; */
   display: inline-block;
@@ -506,12 +511,38 @@ main .row:nth-child(5) .row:nth-child(2) .tab-list ul:last-of-type {
 }
 
 main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
-  background-color: blue;
-  height:400px;
+  background-color: white;
+  /* height:400px; */
+  padding-bottom: 60px;
+  margin-bottom: 30px;
+  /* border: 1px solid red; */
+}
+
+main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox .row {
+  background-color: inherit;
+}
+
+main.container-fluid .row:nth-child(6) {
+  background-color: rgb(243, 245, 249);
+  /* background-color: red; */
+  /* height: 100%; */
+}
+
+/* Questo colore è in realtà uguale, credo, per tutti gli h2 (e h5?) */
+main.container-fluid .row:nth-child(6) h2 {
+  color: rgb(3,28,78);
+}
+main.container-fluid .row:nth-child(6) h5 a {
+  color: rgb(0, 106, 255);
 }
 
 
 
+main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox img {
+  /* border: 1px solid red; */
+  padding-top: 16%;
+  padding-bottom: 5%;
+}
 
 
 
@@ -531,6 +562,10 @@ main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
     margin-top: 90px;
   }
 
+  .circle.rockerbox {
+    margin-top: 5px;
+  }
+
 
   .bl-pad-left {
     padding: 0 15px;
@@ -538,6 +573,14 @@ main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
 
   main .row:nth-child(5) .row:nth-child(2) .tab-list ul li {
     font-size: 0.5em;
+  }
+
+  main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
+    background-color: white;
+    /* height:400px; */
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    /* border: 1px solid red; */
   }
 
 }
@@ -554,6 +597,18 @@ main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
 
   .circle {
     margin-top: 90px;
+  }
+
+  .circle.rockerbox {
+    margin-top: 5px;
+  }
+
+  main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
+    background-color: white;
+    /* height:400px; */
+    padding-bottom: 15px;
+    margin-bottom: 7.5px;
+    /* border: 1px solid red; */
   }
 }
 /* /Media Query SM*/
