@@ -605,7 +605,42 @@ footer li:first-of-type {
   position: fixed;
   right: 40px;
   bottom: 40px;
+  /* border: 1px solid green; */
 }
+
+.speech-bubble {
+	position: relative;
+	background: white;
+	border-radius: .4em;
+  height: 50px;
+  width: 80%;
+  /* line-height: 50px; */
+}
+
+.bl-fl {
+  float: left;
+}
+
+.bl-clearfix {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	margin-bottom: -20px;
+	margin-right: -5px;
+}
+
 
 .shark-square {
   background-color: rgb(0, 106, 255);
@@ -613,6 +648,7 @@ footer li:first-of-type {
   height: 50px;
   position: relative;
   border-radius: 5px;
+  margin-left: 20px;
 }
 
 .shark img {
@@ -634,6 +670,8 @@ footer li:first-of-type {
   line-height: 100%;
   color: white;
 }
+
+
 
 /* -----MEDIA QUERY----- */
 
