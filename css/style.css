@@ -38,7 +38,7 @@ img.logo {
   /* border: 1px solid red; */
   width: 100%;
   padding: 20px 0;
-  cursor: pointer;
+  /* cursor: pointer; */
   /* Aggiunto dopo per consentire al logo di esser sempre centrato */
   position: absolute;
   top: 50%;
