@@ -26,11 +26,19 @@
   /* padding: 0; */
 }
 
+.logotype {
+  position: relative;
+}
+
 img.logo {
   /* border: 1px solid red; */
   width: 100%;
   padding: 20px 0;
   cursor: pointer;
+  /* Aggiunto dopo per consentire al logo di esser sempre centrato */
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .logotype.bl-padding, .bl-nav-left.bl-padding {
@@ -61,17 +69,40 @@ select {
 [class^="bl-nav-"] li {
   display: inline-block;
   line-height: 70px;
-  padding-left: 5px;
-
+  padding-left: 0px;
+  margin-left: 0px;
+  /* border: 1px solid red; */
 }
 
+.btn {
+  position: relative;
+}
 
-/* A che serve?? questo button */
+.hamburger {
+  position: relative;
+}
+
+.hamburger i {
+  position: absolute;
+  top: 50%;
+  /* right: 50%; */
+  right: 0;
+  font-size: 18px;
+
+  transform: translate(-50%, -50%);
+  color: rgb(33,125,255);
+}
+
+/* A che serve?? questo button : E' l'ultimo della navbar*/
 button {
   border-radius: 5px;
   border: 1px solid rgb(0,106,255);
   background-color: inherit;
   color: rgb(33,125,255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 header {
@@ -678,6 +709,10 @@ footer li:first-of-type {
 /* Media Query XS*/
 @media screen and (max-width:768px) {
 
+  .hamburger i {
+    font-size: 14px;
+  }
+
   .row.carousel [class*="fa-chevron-"] {
     /* font-size: 1em; */
     display: none;
@@ -722,6 +757,9 @@ footer li:first-of-type {
 /* ATTENZIONE!!!!! Forse devi mettere questa sopra tutte le media query */
 /* Media Query SM*/
 @media screen and (max-width:992px) {
+
+
+
 
   .row.carousel [class*="fa-chevron-"] {
     font-size: 1.5em;
