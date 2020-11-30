@@ -651,6 +651,12 @@ footer li:first-of-type {
 	background: white;
 	border-radius: .4em;
   padding: 5px;
+  display: none;
+}
+
+.shark:hover .speech-bubble {
+  display: block;
+
 }
 
 .bl-fl {
