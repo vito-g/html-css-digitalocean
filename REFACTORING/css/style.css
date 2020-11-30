@@ -1,6 +1,15 @@
 .container-fluid {
-  /* background-color: red; */
+  /* border: 1px solid black; */
 }
+
+/* Regola provvisoria: */
+/* header .row {
+  border: 1px solid red;
+} */
+
+/* .row {
+  border: 1px solid blue;
+} */
 
 .cursor-pointer {
   cursor: pointer;
@@ -284,7 +293,12 @@ main.container-fluid .row:nth-child(2) h2, h5 {
 main.container-fluid .row:nth-child(3) {
   background-color: rgb(243, 245, 249);
   height: 100%;
+  /* border: 1px solid orange; */
 }
+
+/* main.container-fluid .row:nth-child(3) .bl-container {
+  border: 1px solid green;
+} */
 
 main.container-fluid .row:nth-child(3) .container {
   height: 100%;
@@ -354,7 +368,7 @@ main .row:nth-child(3) .row.carousel [class*="col-"] {
 
 .bl-container {
   padding: 40px 0;
-  /* border: 1px solid black; */
+  /* border: 1px solid green; */
 }
 
 main .row:nth-child(4) .row.text-center {
