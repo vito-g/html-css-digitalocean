@@ -612,8 +612,8 @@ footer li:first-of-type {
 	position: relative;
 	background: white;
 	border-radius: .4em;
-  height: 50px;
-  width: 80%;
+  width: 60%;
+  padding: 5px;
   /* line-height: 50px; */
 }
 
