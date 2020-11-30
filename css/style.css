@@ -3,6 +3,10 @@
   /* height: 70px; */
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .bl-nav .row {
   background-color: white;
   /* height: 100%; */
@@ -93,7 +97,7 @@ select {
   color: rgb(33,125,255);
 }
 
-/* A che serve?? questo button : E' l'ultimo della navbar*/
+
 button {
   border-radius: 5px;
   border: 1px solid rgb(0,106,255);
