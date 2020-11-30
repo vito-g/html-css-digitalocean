@@ -1,0 +1,682 @@
+.container-fluid {
+  /* background-color: red; */
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bl-nav .row {
+  background-color: white;
+}
+
+.container {
+}
+
+.bl-nav .row [class*="col-"] {
+  /* border: 1px solid black; */
+  height: 70px;
+  padding: 0;
+}
+
+[class*="col-"] {
+  /* border: 1px solid blue; */
+  /* TOLTO PER UN ATTIMO */
+  /* padding: 0; */
+}
+
+.logotype {
+  position: relative;
+}
+
+img.logo {
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.logotype.bl-padding, .bl-nav-left.bl-padding {
+  padding-left: 0;
+}
+.bl-nav-right.bl-padding {
+  padding-left: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+select {
+  border: 0;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.bl-nav-left li:nth-of-type(even) select, .bl-nav-right li:nth-of-type(odd) select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+[class^="bl-nav-"] li {
+  display: inline-block;
+  line-height: 70px;
+  padding-left: 0px;
+  margin-left: 0px;
+  /* border: 1px solid red; */
+}
+
+.btn {
+  position: relative;
+}
+
+.hamburger {
+  position: relative;
+}
+
+.hamburger i {
+  position: absolute;
+  top: 50%;
+  /* right: 50%; */
+  right: 0;
+  font-size: 18px;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  color: rgb(33,125,255);
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid rgb(0,106,255);
+  background-color: inherit;
+  color: rgb(33,125,255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header {
+  background-image: url("../img/sfondo-pesci.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+
+header .container {
+  /* border: 1px solid black; */
+}
+
+.row.bl-jumbotron .bl-margin {
+}
+
+.bl-jumbotron h1, h4 {
+  color: white;
+}
+
+.bl-jumbotron h1 {
+  font-size: 62.5px;
+}
+
+.bl-jumbotron h4 {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.bl-jumbotron #account {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.bl-jumbotron #account p {
+  font-size: 32px;
+  font-weight:500;
+  padding: 20px 20px;
+}
+
+.bl-jumbotron #account p span {
+  color: rgb(0, 106, 255);
+}
+
+.bl-jumbotron #account form ~ div {
+  padding-bottom: 20px;
+}
+
+#account form ~ div {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#account input[type] {
+   width: calc(100% - 20px);
+   padding: 5px 10px;
+   margin: 5px 10px;
+   border-radius: 5px;
+   border: 1px solid lightgrey;
+ }
+
+#account form>div:nth-child(3) input[type="submit"] {
+   background-color: rgb(87, 154, 255);
+   color: white;
+   font-weight: bold;
+   border: 1px solid rgb(87, 154, 255);
+ }
+
+#account form>div:nth-child(4) input[type="button"] {
+   background-color: inherit;
+   color: rgb(98, 98, 98);
+   font-weight: bold;
+   border: 1px solid white;
+   box-shadow:  2px  2px 1px rgba(180, 180, 180, 0.3);
+ }
+
+.google {
+  position: relative;
+}
+
+.google img {
+ width: 20px;
+ position: absolute;
+ left: 25px;
+ top: 50%;
+ transform: translate(0, -50%);
+}
+
+#account form ~ div a.decoration {
+  text-decoration: underline;
+}
+
+main .row:first-child {
+  background-color: rgb(243, 245, 249);
+}
+
+main .row:nth-child(2) {
+}
+
+main .row:nth-child(2) .container {
+  background-color: white;
+  height: 100%;
+  /* border: 1px solid green; */
+}
+
+main .row:nth-child(2) .container .row {
+  background-color: white;
+  /* border: 1px solid red; */
+}
+
+main .row [class*="col-"] {
+  /* border: 1px solid black; */
+}
+
+main .row.sponsor {
+  margin: 20px 0;
+}
+
+main .row.sponsor h4 {
+  color: rgb(111, 123, 151);
+}
+
+main .row.sponsor h6 {
+  color: rgb(0, 106, 255);
+}
+
+main .row:nth-child(2) h4 {
+  color: rgb(119, 130, 156);
+}
+
+main [class*="col-"] img {
+  width: 100%;
+  /* border: 1px solid green; */
+}
+
+.row.process {
+  margin-top: 40px;
+}
+
+.row.process [class*="col-"] .ul {
+  border-left: 2px solid rgb(204,204,204);
+  margin-bottom: 25px;
+}
+
+.row.process .ul ul>li {
+  list-style-type: none;
+  line-height: 3;
+  padding-left: 10px;
+  color: rgb(117,128,154);
+  font-weight: 500;
+}
+
+.row.process [class*="col-"] {
+  /* border: 1px solid black; */
+  height: 100%;
+}
+
+.row.process div:nth-child(2) .row.sub {
+  color: rgb(117,128,154);
+}
+
+p {
+  /* color: rgb(117,128,154); */
+}
+
+.row.process div:nth-child(2) .row.sub div img {
+  height: 37px;
+  width: auto;
+  /* border: 1px solid green; */
+}
+
+.row.process {
+  margin-bottom: 20px;
+}
+
+.row.process div:nth-child(2) .row.sub .row:first-child {
+  margin-bottom: 15px;
+}
+
+main.container-fluid .row:nth-child(2) h2, h5 {
+  color: rgb(3,28,78);
+}
+
+main.container-fluid .row:nth-child(3) {
+  background-color: rgb(243, 245, 249);
+  height: 100%;
+}
+
+main.container-fluid .row:nth-child(3) .container {
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+main.container-fluid .row:nth-child(3) h2, h5 {
+    color: rgb(3,28,78);
+}
+
+main .row:nth-child(3) h4 {
+    color: rgb(119, 130, 156);
+}
+
+
+main .row:nth-child(3) .row.carousel [class*="col-"] {
+  /* border: 1px solid white; */
+}
+
+.row.carousel>[class*="col-"]:first-child, .row.carousel>[class*="col-"]:last-child {
+  /* border: 1px solid red; */
+}
+
+.row.img {
+  position: relative;
+}
+
+.row.carousel .fa-chevron-left {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.row.carousel .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  left: 105%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.row.carousel [class*="fa-chevron-"]:hover {
+  color: rgb(111, 123, 151);
+  cursor: pointer;
+}
+
+/* Forse sarebbe meglio un container personale su cui inserire margini */
+.row.carousel {
+  margin-top: 50px;
+  /* border: 1px solid green; */
+}
+
+.circle {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 106, 255);
+  display: inline-block;
+}
+
+.circle:hover {
+  background-color: rgb(0, 106, 255);
+}
+
+.bl-container {
+  padding: 40px 0;
+  /* border: 1px solid black; */
+}
+
+main .row:nth-child(4) .row.text-center {
+  background-color: inherit;
+}
+
+main .row:nth-child(4) .row.text-center h2, h5 {
+  color: rgb(3, 28, 78);
+}
+
+main .row:nth-child(4) .row [class*="col-"] {
+  /* border: 1px solid blue; */
+}
+
+main .row:nth-child(4)  [class*="col-"] img {
+  height: 37px;
+  width: auto;
+  margin-top: 25px;
+}
+
+/* IL colore di p è anche su un altro p della pagina */
+main .row:nth-child(4) p {
+  color: rgb(117,128,154);
+}
+
+main .row:nth-child(5) {
+  background: linear-gradient(180deg, rgb(0, 71, 197), rgb(0, 30, 154));
+}
+
+/* Forse sarebbe meglio dare un padding-left zero alla prima colonna ed un padding-right zero alla terza e ultima colonna --->(A) */
+.bl-pad-left {
+  padding-left: 0;
+  /* border: 1px solid red; */
+}
+/* --->(A) Così facendo dovrò aggiungere la regola che segue */
+/* .bl-pad-right {
+  padding-right: 0;
+} */
+
+main .row:nth-child(5) .row {
+  background-color: inherit;
+  color: white;
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list {
+  padding-bottom: 20px;
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul li {
+  display: inline-block;
+  line-height: 2.5;
+  padding-left: 15px;
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:first-of-type {
+  width: 16%;
+}
+
+
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:nth-child(2) {
+  color: rgb(171, 188, 229);
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul li:last-child  {
+  float: right;
+  color: rgb(0, 200, 207);
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul  {
+ border-bottom: 1px solid white;
+}
+
+main .row:nth-child(5) .row:nth-child(2) .tab-list ul:last-of-type {
+  border: none;
+}
+
+main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
+  background-color: white;
+  padding-bottom: 60px;
+  margin-bottom: 30px;
+  /* border: 1px solid red; */
+  border-radius: 5px;
+}
+
+main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox .row {
+  background-color: inherit;
+}
+
+main.container-fluid .row:nth-child(6) {
+  background-color: rgb(243, 245, 249);
+}
+
+/* Questo colore è in realtà uguale, credo, per tutti gli h2 (e h5?) */
+main.container-fluid .row:nth-child(6) h2 {
+  color: rgb(3,28,78);
+}
+main.container-fluid .row:nth-child(6) h5 a {
+  color: rgb(0, 106, 255);
+}
+
+main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox img {
+  /* border: 1px solid red; */
+  padding-top: 16%;
+  padding-bottom: 5%;
+}
+
+main .row:nth-child(7) {
+  background-color: rgb(0, 30, 154);
+  color: white;
+}
+
+main .row:nth-child(7) .row {
+  background-color: inherit;
+}
+
+main .row:nth-child(7) .row input[type="button"] {
+   background-color: white;
+   color: rgb(0, 106, 255);
+   font-weight: bold;
+   border: 1px solid white;
+   padding: 10px 15px;
+   margin: 5px 10px;
+   border-radius: 5px;
+ }
+
+footer {
+  background-color: rgb(3,28,78);
+  color: rgb(122, 133, 157);
+}
+
+footer .logo-sign {
+  margin-bottom: 5px;
+}
+
+footer span#social-icon i {
+  padding: 5px 5px 0 0;
+}
+
+.dif-color {
+  color: rgb(90, 104, 135);
+}
+
+footer ul {
+  margin-bottom: 20px;
+}
+
+footer li {
+  list-style: none;
+  line-height: 1.9;
+  color: rgb(166, 173, 189);
+}
+
+footer li:first-of-type {
+  color: white;
+  font-weight: bold;
+}
+
+.shark {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  /* border: 1px solid green; */
+}
+
+.bl-clearfix {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.speech-bubble {
+	position: relative;
+	background: white;
+	border-radius: .4em;
+  padding: 5px;
+  display: none;
+}
+
+.shark:hover .speech-bubble {
+  display: block;
+
+}
+
+.bl-fl {
+  float: left;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	margin-bottom: -20px;
+	margin-right: -5px;
+}
+
+.shark-square {
+  background-color: rgb(0, 106, 255);
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.shark img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.circle-num {
+  position: absolute;
+  top:-10.5%;
+  right: -10.5%;
+  width: 42%;
+  height: 42%;
+  border: 2.5px solid white;
+  border-radius: 50%;
+  background-color: red;
+  line-height: 100%;
+  color: white;
+}
+
+
+
+
+/* -----MEDIA QUERY----- */
+
+
+
+
+
+/* ATTENZIONE!!!!! Forse devi mettere questa sopra tutte le media query */
+/* Media Query SM*/
+@media screen and (max-width:992px) {
+
+  .row.carousel [class*="fa-chevron-"] {
+    font-size: 1.5em;
+    /* color: yellow; */
+  }
+
+  .circle {
+    margin-top: 90px;
+  }
+
+  .circle.rockerbox {
+    margin-top: 5px;
+  }
+
+  main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
+    background-color: white;
+    /* height:400px; */
+    padding-bottom: 15px;
+    margin-bottom: 7.5px;
+    /* border: 1px solid red; */
+  }
+
+  .shark {
+    position: fixed;
+    left: 25px;
+    bottom: 120px;
+  }
+
+}
+/* END Media Query SM*/
+
+
+
+
+
+
+/* Media Query XS*/
+@media screen and (max-width:768px) {
+
+  .hamburger i {
+    font-size: 14px;
+  }
+
+  .row.carousel [class*="fa-chevron-"] {
+    /* font-size: 1em; */
+    display: none;
+    /* color: yellow; */
+  }
+
+  .circle {
+    margin-top: 90px;
+  }
+
+  .circle.rockerbox {
+    margin-top: 5px;
+  }
+
+  .bl-pad-left {
+    padding: 0 15px;
+  }
+
+  main .row:nth-child(5) .row:nth-child(2) .tab-list ul li {
+    font-size: 0.5em;
+  }
+
+  main .row:nth-child(6) .row.carousel>[class*="col-"] .row.img.rockerbox {
+    background-color: white;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    /* border: 1px solid red; */
+  }
+
+  .shark {
+    position: fixed;
+    left: 35px;
+    bottom: 90px;
+  }
+
+}
+/* END Media Query XS*/
