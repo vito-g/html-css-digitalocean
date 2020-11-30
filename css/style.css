@@ -170,7 +170,7 @@ header .container {
    border: 1px solid lightgrey;
  }
 
-#account form>div:nth-child(3) input[type="button"] {
+#account form>div:nth-child(3) input[type="submit"] {
    background-color: rgb(87, 154, 255);
    color: white;
    font-weight: bold;
